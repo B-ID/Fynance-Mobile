@@ -3,19 +3,16 @@ import {
   Button,
   Flex,
   HStack,
-  Input,
   PinInput,
   PinInputField,
   Text,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 
-type Props = {};
 
-export default function LoginForm({}: Props) {
-  const [pin, setPin] = useState('')
-  const isPinComplete = pin.length === 6
-
+export default function LoginForm() {
+  const [pin, setPin] = useState('');
+  const isPinComplete = pin.length === 6;
 
   return (
     <Box>
@@ -30,17 +27,21 @@ export default function LoginForm({}: Props) {
       </Box>
 
       {/* PIN Input */}
-      <Flex direction={'column'} gap={'40px'} align={'center'} justify={'center'} mb='213px'>
+      <Flex
+        direction={'column'}
+        gap={'40px'}
+        align={'center'}
+        justify={'center'}
+        mb='213px'>
         <HStack color={'white'}>
-          <PinInput 
-          autoFocus
-          // size={'xs'} 
-          // variant={'unstyled'} 
-          mask={true}
-          value={pin}
-          onChange={(e) => setPin(e)}
-          >
-            <PinInputField  />
+          <PinInput
+            autoFocus
+            // size={'xs'}
+            variant={'unstyled'}
+            mask={true}
+            value={pin}
+            onChange={(e) => setPin(e)}>
+            <PinInputField />
             <PinInputField />
             <PinInputField />
             <PinInputField />
@@ -51,14 +52,13 @@ export default function LoginForm({}: Props) {
 
         {/* Terms & Conditions */}
         <Box fontSize={12} textAlign='center'>
-          <Text 
-          color='#3180E7'
-          _hover={{
-            textDecoration: 'underline',
-          }}
-          >
+          <Text
+            color='#3180E7'
+            _hover={{
+              textDecoration: 'underline',
+            }}>
             Forgot PIN
-            </Text>
+          </Text>
         </Box>
       </Flex>
 

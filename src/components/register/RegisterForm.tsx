@@ -3,7 +3,7 @@ import { Box, Text, Flex, Input, Button } from '@chakra-ui/react';
 import { RegistrationTabEnum } from '@/pages';
 import { IRegisterFormProps } from './register.types';
 
-export default function RegisterForm({changeTab}: IRegisterFormProps) {
+export default function RegisterForm({ changeTab }: IRegisterFormProps) {
   const [inputValue, setInputValue] = useState<string>('');
   const isFieldComplete = inputValue.length === 9;
 
