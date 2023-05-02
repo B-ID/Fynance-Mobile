@@ -9,7 +9,6 @@ import {
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 
-
 export default function LoginForm() {
   const [pin, setPin] = useState('');
   const isPinComplete = pin.length === 6;
@@ -54,6 +53,8 @@ export default function LoginForm() {
         <Box fontSize={12} textAlign='center'>
           <Text
             color='#3180E7'
+            fontSize={14}
+            cursor='pointer'
             _hover={{
               textDecoration: 'underline',
             }}>
