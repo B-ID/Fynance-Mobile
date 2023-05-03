@@ -20,4 +20,3 @@ export default function useGetTabs() {
 
   return { changeTab, getTab, currentTab };
 }
-

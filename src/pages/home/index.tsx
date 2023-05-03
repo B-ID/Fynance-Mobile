@@ -29,7 +29,7 @@ export default function HomePage() {
         <RecentTransactions />
       </Box>
       <Box>
-      <BottomNavigation />
+        <BottomNavigation />
       </Box>
     </Box>
   );

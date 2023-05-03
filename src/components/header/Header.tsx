@@ -6,7 +6,6 @@ import { BsChatSquareDots } from 'react-icons/bs';
 import copy from '../../assets/icons/copy.png';
 import BackgroundCard from '../background/BackgroundCard';
 
-
 export default function Header() {
   return (
     <>

@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Box, Stack} from '@chakra-ui/react';
+import { Box, Stack } from '@chakra-ui/react';
 import { Background, LoginForm, RegisterForm } from '@/components';
 import { useState } from 'react';
 import useGetTabs from '@/hooks/getTabs';
@@ -10,7 +10,7 @@ export enum RegistrationTabEnum {
 }
 
 export default function Home() {
-  const {getTab, changeTab, currentTab} = useGetTabs()
+  const { getTab, changeTab, currentTab } = useGetTabs();
 
   return (
     <>
@@ -37,10 +37,8 @@ export default function Home() {
             px='24px'
             pt='24px'
             pb='42px'>
-
             {/* Register & Login Tab */}
             {getTab(currentTab)}
-          
           </Box>
         </Box>
       </Stack>
