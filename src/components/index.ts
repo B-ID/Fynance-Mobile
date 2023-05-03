@@ -7,6 +7,7 @@ import Progress from "./progress/Progress";
 import Deals from "./deals/Deals";
 import MostRecepient from "./recepient/MostRecepient";
 import SectionMenu from "./sectionMenu/SectionMenu";
+import RecentTransactions from "./transactions/RecentTransactions";
 
 
 
@@ -20,4 +21,5 @@ export {
     Deals,
     MostRecepient,
     SectionMenu,
+    RecentTransactions,
 }
