@@ -5,7 +5,7 @@ import { ISectionMenuProps } from './sectionMenu.types';
 export default function MenuOption({ Icon, title }: ISectionMenuProps) {
   return (
     <Box cursor={'pointer'}>
-      <Flex direction={'column'} alignItems={'center'}>
+      <Flex direction={'column'} align={'center'}>
         <Box
           mb={'8px'}
           borderRadius={'8px'}
