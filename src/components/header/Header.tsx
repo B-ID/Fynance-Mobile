@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
-import avatar from '../../assets/avatar.png';
+import avatar from '../../assets/images/avatar.png';
 import { BiBell } from 'react-icons/bi';
 import { BsChatSquareDots } from 'react-icons/bs';
 import copy from '../../assets/icons/copy.png';

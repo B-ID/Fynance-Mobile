@@ -1,6 +1,5 @@
-import { Header } from '@/components'
+import { Deals, Header, MostRecepient, Progress } from '@/components'
 import { Box, Text } from '@chakra-ui/react'
-import {Progress} from '@/components'
 import SectionMenu from '@/components/sectionMenu/SectionMenu'
 
 
@@ -10,6 +9,8 @@ export default function HomePage() {
         <Header />
         <Progress />
         <SectionMenu/>
+        <Deals />
+        <MostRecepient />
     </Box>
   )
 }

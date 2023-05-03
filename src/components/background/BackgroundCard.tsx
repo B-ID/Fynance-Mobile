@@ -1,18 +1,20 @@
 import { Box, Image, Text, Flex } from '@chakra-ui/react'
 import React from 'react'
-import pattern from '../../assets/patterns.png'
+import pattern from '../../assets/images/patterns.png'
 import { IBackgroundCardProps } from './backgroundCard.types'
 
 
 
-export default function BackgroundCard({children}: IBackgroundCardProps) {
+export default function BackgroundCard({children, width='full', height='123px', background='#124E9D'}: IBackgroundCardProps) {
   return (
         <Box
           overflow='hidden'
           pos='relative'
           borderRadius='16px'
-          h='123px'
-          bg='#124E9D'>
+          h={height}
+          w={width}
+          bg={background}
+          >
           {/* Stats details */}
           <Image
             objectFit='cover'

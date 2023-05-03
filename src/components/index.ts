@@ -5,6 +5,8 @@ import Header from "./header/Header";
 import BackgroundCard from "./background/Background";
 import Progress from "./progress/Progress";
 import Deals from "./deals/Deals";
+import MostRecepient from "./recepient/MostRecepient";
+import SectionMenu from "./sectionMenu/SectionMenu";
 
 
 
@@ -16,4 +18,6 @@ export {
     BackgroundCard,
     Progress,
     Deals,
+    MostRecepient,
+    SectionMenu,
 }

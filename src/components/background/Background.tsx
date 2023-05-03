@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Image } from '@chakra-ui/react';
-import pattern from '../../assets/patterns.png';
+import pattern from '../../assets/images/patterns.png';
 import { RegistrationTabEnum } from '@/pages';
 import { IRegisterFormProps } from '../register/register.types';
 import { ArrowBackIcon } from '@chakra-ui/icons';

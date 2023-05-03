@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
-import chart from '../../assets/chart.png';
+import chart from '../../assets/images/chart.png';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 export default function Progress() {
