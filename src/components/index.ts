@@ -8,7 +8,7 @@ import Deals from "./deals/Deals";
 import MostRecepient from "./recepient/MostRecepient";
 import SectionMenu from "./sectionMenu/SectionMenu";
 import RecentTransactions from "./transactions/RecentTransactions";
-
+import BottomNavigation from "./bottomNavigation/BottomNavigation";
 
 
 export {
@@ -22,4 +22,5 @@ export {
     MostRecepient,
     SectionMenu,
     RecentTransactions,
+    BottomNavigation,
 }

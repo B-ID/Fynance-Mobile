@@ -7,6 +7,11 @@ import money from './money-recive.png'
 import airplane from './airplane.png'
 import copy from './copy.png'
 import scan from './scan.png'
+import home from './home.png'
+import transaction from './transaction.png'
+import wallet from './wallet.png'
+import settings from './setting.png'
+
 
 
 export {
@@ -19,4 +24,8 @@ export {
     airplane,
     copy,
     scan,
+    home,
+    transaction,
+    wallet,
+    settings,
 }

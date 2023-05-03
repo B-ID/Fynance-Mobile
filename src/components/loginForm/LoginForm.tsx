@@ -8,8 +8,10 @@ import {
   Text,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
+import { useRouter } from 'next/router';
 
 export default function LoginForm() {
+  const router = useRouter()
   const [pin, setPin] = useState('');
   const isPinComplete = pin.length === 6;
 
@@ -65,6 +67,7 @@ export default function LoginForm() {
 
       {/*  Register Button */}
       <Button
+      onClick={() => router.push('/home')}
         height={'50px'}
         borderRadius={'16px'}
         isDisabled={!isPinComplete}
